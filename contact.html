@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <title>Mi Primer Proyecto | Inicio</title>
+    <title>Mi Primer Proyecto | Contacto</title>
     <!--fontawesome -->
     <script src="https://kit.fontawesome.com/2bddb3b430.js" crossorigin="anonymous"></script>
     <!-- css -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/utils/top.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
     <!-- navegation -->
@@ -38,29 +39,30 @@
             </li>
         </ul>
     </nav>
-    <!-- header -->
-    <header class="header-main">
-        <div class="h-image">
-            <img src="img/header.png" alt="graduation image">
-        </div>
-        <div class="h-text">
-            <h2>Bienvenido</h2>
-            <p>
-                Arctic Monkeys es una banda británica de rock alternativo, formada en Sheffield, Reino Unido.​ El grupo está compuesto por el guitarrista principal 
-                y vocalista Alex Turner, el guitarrista Jamie Cook, el baterista Matt Helders y el bajista Nick O'Malley. 
-            </p>    
-            <div class="h-links">
-                <div class="h-link">
-                    <img src="img/user-logo2.png" alt="user-logo">
-                    <p>Mi persona favorita.</p>
-                </div>
-                <div class="h-link">
-                    <img src="img/map-logo.png" alt="map-logo">
-                    <p>Mi lugar favorito.</p>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- forum datos-->
+    <div class="forum-dt">
+        <fieldset>
+            <legend>Mis Datos</legend>
+            <form>
+                <label>Nombre</label> 
+                <input type="text" placeholder="Ingrese su Nombre...">
+                <label>Apellido</label>
+                <input type="text" placeholder="Ingrese su Apellido...">
+                <label>Edad</label>
+                <input type="number" placeholder="Ingrese su Edad...">
+                <select name="" id="">
+                    <option value="BO-C">Cochabamba</option>
+                    <option value="BO-S">Santa Cruz</option>
+                    <option value="BO-L">La Paz</option>
+                    <option value="BO-O">Oruro</option>
+                    <option value="BO-P">Potosí</option>
+                </select>
+                <label>Descripción</label>
+                <textarea></textarea>
+                <input type="button" value="Ingresar Datos">
+            </form>
+        </fieldset>
+    </div>
     <!-- footer -->
     <footer>
         <ul class="f-menu">

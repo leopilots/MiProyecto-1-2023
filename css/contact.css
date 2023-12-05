@@ -1,0 +1,38 @@
+/* forum datos*/
+.forum-dt {
+    padding: 40px 0;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #d3ee9f;
+}
+
+.forum-dt input[type="text"], input[type="number"], label, select, textarea {
+    padding: 10px;
+    width: 50%;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid #67999a;
+    margin: 20px 0;
+}
+
+.forum-dt input[type="button"] {
+    background-color: #67999a;
+    width: 30%;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #212121;
+    color: #fff;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.forum-dt input[type="button"]:hover {
+    background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+.forum-dt label {
+    width: 50%;
+    padding: 15px 0 5px 12px;
+}

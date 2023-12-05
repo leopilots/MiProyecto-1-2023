@@ -71,57 +71,6 @@ body {
     border-radius: 25px;
 }
 
-/* header */
-.header-main {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    padding: 100px 0 100px 0;
-}
-
-.h-image img {
-    border: 25px solid #d6696c;
-    border-radius: 25px;
-    height: 500px;
-}
-
-.h-text {
-    text-align: justify;
-    margin: 0 100px;
-}
-
-.h-text h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
-    margin-bottom: 65px;
-}
-
-.h-links {
-    display: flex;
-    margin-top: 50px;
-}
-
-.h-link {
-    background-color: #ccc;
-    border-radius: 25px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    width: 40%;
-    margin: auto;
-}
-
-.h-link:hover {
-    transition: 0.5s all;
-    scale: 1.1;
-}
-
-.h-link img {
-    width: 50px;
-    margin-right: 10px;
-}
-
 /* footer */
 footer {
     background-color: #7b9f35;
